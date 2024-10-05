@@ -1,9 +1,9 @@
 import './App.css'
-import data from './data'
-import Header from './components/Header'
-import HeroImg from './components/HeroImg'
-import Info from './components/Info'
-import Card from './components/Card'
+import data from './data.js'
+import Header from './components/Header.jsx'
+import HeroImg from './components/HeroImg.jsx'
+import Info from './components/Info.jsx'
+import Card from './components/Card.jsx'
 
 function App() {
   const dataArr = data.map(item => {
