@@ -1,0 +1,130 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* header */
+
+.header {
+    padding: 1.25rem 1.875rem; /* 20px 30px */
+    box-shadow: 0 3px 7.5px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* hero */
+
+.hero {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #222222;
+    padding: 1.75em 2.25em; /* 26px 36px */
+}
+
+/* hero image */
+
+.hero-img-container {
+    width: 85%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+/* Info */
+
+.info-heading {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.info-para {
+    width: 69%;
+    max-width: 600px;
+}
+
+/* cards-container */
+.cards-container {
+    display: flex;
+    column-gap: 20px;
+    overflow-x: auto;
+}
+
+/* card div */
+
+.card {
+    position: relative;
+    cursor: pointer;
+    width: 176px;
+    flex-shrink: 0;
+}
+
+/* card-img */
+.card-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* card-stats */
+
+.card-stats {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
+
+.star-img {
+    width: 14px;
+}
+
+.seperator-dot {
+    background-color: #918E98;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+}
+
+.card-reviewCount, .card-location {
+    color: #918E98;
+}
+
+/* card-title */ 
+.card-title {
+    color: #222222;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0.667em 0;
+}
+
+/* card-price */ 
+.card-price {
+    font-size: 12px;
+    color: #000000;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+/* card-badge */
+.card-badge {
+    background-color: #FFF;
+    font-size: 10.2px;
+    font-weight: 400;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 2px;
+}
